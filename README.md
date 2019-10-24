@@ -7,14 +7,16 @@ Different datasets will be provided to carry out the workshop. The main dataset 
 
 Run this to get all the data:
 ```sh
+git clone https://github.com/actuatech/AND-TourismWorkshop.git
+cd AND-TourismWorkshop
 bash getData.sh
 ```
 
-#### Stay Points
+### Stay Points
 Trabajar con todos los registros raw resulta muy ineficiente, por este motivo se ha implementado un [algoritmo](https://www.researchgate.net/publication/221589982_Mining_user_similarity_based_on_location_history) para calcular los diferentes stay points para cada uno de los usuarios. Así pues como se puede ver en la figura, agregamos los registros que cumplen con dos criterios **100meters** y **15min**.
 These stays points then are correlated with the **Uber H3** cell index at a resolution level of **11**.
 
-IMAGE
+![StayPoints](images/staypoints.png)
 
 
 The final schema for this dataset is the following:
@@ -36,21 +38,21 @@ Three datasets have been generated for different days:
 
 
 
-#### GIS
+### GIS
 Different GIS layers in GeoJSON format are provided in order to cross spatial data with them.
 
-###### Administrative limits
+##### Administrative limits
 Known in Andorra as parishes, this GIS layer provides the administrative divisions of the country.
 
 
-###### Buildings
+##### Buildings
 All buildings inside the country are provided. However, we don't have more usefull information referring the buildings.
 
-###### POIs
+##### POIs
 Different POIs are provided containing: restaurants, hotels, shops, museums,...
 
 
-###### Land use/activity
+##### Land use/activity
 We have created a land use/activity layer.
 
 | Column | Type | Description |
@@ -75,10 +77,10 @@ Zones activities can be:
 * Parking
 * Mixed
 
-#### Others
+### Others
 Other datasets such the mcc and mnc relation with country names are provided to better understand telecom data.
 
-###### MCC/MNC
+##### MCC/MNC
 This dataset allows to get the country names with the mcc and mnc codes.
 
 
