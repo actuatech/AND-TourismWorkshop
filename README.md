@@ -20,6 +20,7 @@ These stays points then are correlated with the **Uber H3** cell index at a reso
 
 
 The final schema for this dataset is the following:
+
 | Column | Type | Description |
 | --- | --- | --- |
 | **imsi** | String | Unique user identifier |
