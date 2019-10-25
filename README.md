@@ -2,6 +2,12 @@
 **Carto**, **City Science Group** and the **Andorra Innovation Hub** are organising for the first time a workshop with the goal of explore and brainstorm new ways of analyzing spatial data to better understand tourist profiles.
 This repo holds all the documentation in order to get and deal with the different datasets that will be provided for the workshop.
 
+Carto has already builded some maps visualizing some datasets, open the link and start exploring**!!!**
+```
+https://team.carto.com/u/jaimedemora/builder/5e8c01cb-c118-48f8-bd83-859448c9795d/embed
+```
+
+
 # DATA
 Different datasets will be provided to carry out the workshop. The main dataset comes from **telecom data** and then other complementary datasets such as GIS layers, dictionaries,...
 
@@ -12,7 +18,8 @@ cd AND-TourismWorkshop
 bash getData.sh
 ```
 
-Carto team is provinding a Colab notebook with the data and dependencies already included:
+
+Carto team is provinding as well a Colab notebook with the data and dependencies already included:
 ```
 https://colab.research.google.com/drive/15BaGc9nojQ_KTeOsAVT-ClTiP4etg_Rk
 ```
