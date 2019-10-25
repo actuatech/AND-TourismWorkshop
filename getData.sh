@@ -3,9 +3,9 @@ mkdir -p data/staypoints
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
         #Get staypoints
-        wget "https://www.dropbox.com/s/tjm8chqfv62etdo/normalDay.csv?dl=0" -O data/staypoints/normalDay.csv
-        wget "https://www.dropbox.com/s/bkvxyh6xyv7var9/LaVueltaDay.csv?dl=0" -O data/staypoints/LaVueltaDay.csv
-        wget "https://www.dropbox.com/s/hv5dafntummc86n/CirqueDuSoleilDay.csv?dl=0" -O data/staypoints/CirqueDuSoleilDay.csv
+        wget "https://www.dropbox.com/s/90dx6v1rbkag3l6/NormalDay.csv?dl=0" -O data/staypoints/normalDay.csv
+        wget "https://www.dropbox.com/s/f7pqamlpw9nslfm/LaVueltaDay.csv?dl=0" -O data/staypoints/LaVueltaDay.csv
+        wget "https://www.dropbox.com/s/tmb0h0e0lpaxx0y/CirqueDuSoleilDay.csv?dl=0" -O data/staypoints/CirqueDuSoleilDay.csv
 
         #Get GIS
         wget "https://www.dropbox.com/s/ubmm9w4zg8u09ib/ActivitiesZones.geojson?dl=0" -O data/GIS/ActivitiesZones.geojson
@@ -20,9 +20,9 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
 
 elif [[ "$OSTYPE" == "darwin"* ]]; then
         #Get staypoints
-        curl -L -o data/staypoints/normalDay.csv https://www.dropbox.com/s/tjm8chqfv62etdo/normalDay.csv?dl=0
-        curl -L -o data/staypoints/LaVueltaDay.csv https://www.dropbox.com/s/bkvxyh6xyv7var9/LaVueltaDay.csv?dl=0
-        curl -L -o data/staypoints/CirqueDuSoleilDay.csv https://www.dropbox.com/s/hv5dafntummc86n/CirqueDuSoleilDay.csv?dl=0
+        curl -L -o data/staypoints/normalDay.csv https://www.dropbox.com/s/90dx6v1rbkag3l6/NormalDay.csv?dl=0
+        curl -L -o data/staypoints/LaVueltaDay.csv https://www.dropbox.com/s/f7pqamlpw9nslfm/LaVueltaDay.csv?dl=0
+        curl -L -o data/staypoints/CirqueDuSoleilDay.csv https://www.dropbox.com/s/tmb0h0e0lpaxx0y/CirqueDuSoleilDay.csv?dl=0
 
         #Get GIS
         curl -L -o data/GIS/ActivitiesZones.geojson https://www.dropbox.com/s/ubmm9w4zg8u09ib/ActivitiesZones.geojson?dl=0
