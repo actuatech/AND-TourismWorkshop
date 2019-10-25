@@ -2,7 +2,7 @@
 **Carto**, **City Science Group** and the **Andorra Innovation Hub** are organising for the first time a workshop with the goal of explore and brainstorm new ways of analyzing spatial data to better understand tourist profiles.
 This repo holds all the documentation in order to get and deal with the different datasets that will be provided for the workshop.
 
-Carto has already builded some maps visualizing some datasets, open the link and start exploring**!!!**
+Carto has already builded some maps visualizing some datasets, open the link and start exploring **!!!**
 ```
 https://team.carto.com/u/jaimedemora/builder/5e8c01cb-c118-48f8-bd83-859448c9795d/embed
 ```
