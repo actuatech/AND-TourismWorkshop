@@ -13,8 +13,8 @@ bash getData.sh
 ```
 
 ### Stay Points
-Trabajar con todos los registros raw resulta muy ineficiente, por este motivo se ha implementado un [algoritmo](https://www.researchgate.net/publication/221589982_Mining_user_similarity_based_on_location_history) para calcular los diferentes stay points para cada uno de los usuarios. Así pues como se puede ver en la figura, agregamos los registros que cumplen con dos criterios **100meters** y **15min**.
-These stays points then are correlated with the **Uber H3** cell index at a resolution level of **11**.
+Work with the raw data is really inefficient because of the volume, that's why we have implemented an [algorithm](https://www.researchgate.net/publication/221589982_Mining_user_similarity_based_on_location_history) to calculate the different stay points for each individual person. In the picture we can clearly see how we aggregate the raw points into stay points whenever they satisfy two requirements: **100meters** y **15min**.
+These stay points then are correlated with the **Uber H3** cell index at a resolution level of **11**.
 
 ![StayPoints](images/staypoints.png)
 
